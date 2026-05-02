@@ -1,0 +1,11 @@
+openai>=1.50
+pydantic>=2.8
+python-dotenv>=1.0
+opencv-python>=4.10
+pillow>=10.4
+numpy>=1.26
+dateparser>=1.2
+python-dateutil>=2.9
+regex>=2024.7
+rapidfuzz>=3.9
+pytest>=8.0

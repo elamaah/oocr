@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/c/Users/abdo/PycharmProjects/oocr/.venv/Scripts/python.exe --version)",
+      "Bash(/c/Users/abdo/PycharmProjects/oocr/.venv/Scripts/python.exe -m pip install --upgrade \"openai>=1.50\" \"pydantic>=2.8\" \"opencv-python>=4.10\" \"dateparser>=1.2\" \"python-dateutil>=2.9\" \"sentence-transformers>=3.0\" \"rapidfuzz>=3.9\" \"regex>=2024.7\" \"python-dotenv>=1.0\")",
+      "Bash(jobs -l)",
+      "Bash(/c/Users/abdo/PycharmProjects/oocr/.venv/Scripts/python.exe -c ' *)",
+      "Bash(/c/Users/abdo/PycharmProjects/oocr/.venv/Scripts/python.exe -m pip install --upgrade \"openai>=1.50\" \"sentence-transformers>=3.0\")",
+      "Bash(/c/Users/abdo/PycharmProjects/oocr/.venv/Scripts/python.exe -m pytest tests/test_normalize.py -v)",
+      "Bash(/c/Users/abdo/PycharmProjects/oocr/.venv/Scripts/python.exe -m pip install pytest)",
+      "Bash(/c/Users/abdo/PycharmProjects/oocr/.venv/Scripts/python.exe -m pytest tests/test_normalize.py -q)",
+      "Bash(/c/Users/abdo/PycharmProjects/oocr/.venv/Scripts/python.exe -m pip list)",
+      "Bash(/c/Users/abdo/PycharmProjects/oocr/.venv/Scripts/python.exe -m pip install paddlepaddle)",
+      "Bash(/c/Users/abdo/PycharmProjects/oocr/.venv/Scripts/python.exe main.py test_arabic_image.jpg --debug)",
+      "Bash(/c/Users/abdo/PycharmProjects/oocr/.venv/Scripts/python.exe -u -c ' *)",
+      "Bash(powershell -NoProfile -Command \"Get-Process python -ErrorAction SilentlyContinue | Stop-Process -Force\")",
+      "Bash(PYTHONIOENCODING=utf-8 /c/Users/abdo/PycharmProjects/oocr/.venv/Scripts/python.exe -u main.py 1.jpg)",
+      "Bash(/c/Users/abdo/PycharmProjects/oocr/ocr_env/Scripts/python.exe --version)"
+    ]
+  }
+}
